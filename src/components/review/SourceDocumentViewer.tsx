@@ -214,7 +214,7 @@ function HighlightOverlay({
     >
       {/* Low confidence warning */}
       {isLowConfidence && (
-        <div className="absolute -top-5 -right-1">
+        <div className="absolute -top-5 -left-1">
           <AlertCircle size={14} className="text-status-warning" />
         </div>
       )}
