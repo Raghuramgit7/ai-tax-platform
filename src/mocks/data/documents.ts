@@ -14,7 +14,7 @@ export const sourceDocuments: SourceDocument[] = [
         fieldName: 'Line 1 – Wages',
         page: 1,
         // Row "1. Wages, tips, other" is at ~27%
-        boundingBox: { x: 62, y: 26, width: 34, height: 2.8 },
+        boundingBox: { x: 65, y: 25, width: 32, height: 2.8 },
         extractedValue: 72000,
         confidence: 97,
         colorIndex: 0,
@@ -55,7 +55,7 @@ export const sourceDocuments: SourceDocument[] = [
         fieldId: 'field-1',
         fieldName: 'Line 1 – Wages',
         page: 1,
-        boundingBox: { x: 62, y: 26, width: 34, height: 2.8 },
+        boundingBox: { x: 65, y: 25, width: 32, height: 2.8 },
         extractedValue: 13250,
         confidence: 94,
         colorIndex: 0,
