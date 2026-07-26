@@ -4,6 +4,23 @@ An AI-powered tax platform frontend demonstrating good UX for **tax clients** an
 
 ---
 
+## What's Real vs. Simulated
+
+| What | Real (wired up) | Simulated (mocked) |
+|------|----------------|-------------------|
+| UI interactions | All clicks, selections, toggles, expand/collapse work | — |
+| Role switching | Instant toggle between CPA and Client with different nav/permissions | No real auth system |
+| Field → Source traceability | Click any field, see source docs + transformations + confidence | Data is hardcoded, not from OCR |
+| Document viewer + highlights | Bounding boxes show extraction regions, tooltips on hover | Simulated document layout, not real PDFs |
+| AI Insights | Evidence bullets, confidence scores, Accept/Correct/Dismiss actions | AI outputs are fabricated plausible data |
+| Collaboration threads | Messages render, internal/client mode filtering works | No messaging backend, hardcoded messages |
+| Client onboarding | Upload/Answer buttons simulate progress with spinners + state updates | No real file upload or storage |
+| Action items | Mark complete, grouped views, badge counts update | State resets on page refresh |
+
+**In short:** Every interaction you see works end-to-end in the browser. The data behind it is hardcoded to demonstrate the UX patterns. No backend, no real AI model, no real file upload — exactly as the case study instructions intended.
+
+---
+
 ## Demo
 
 ```bash
