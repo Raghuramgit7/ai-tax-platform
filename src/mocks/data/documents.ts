@@ -25,7 +25,7 @@ export const sourceDocuments: SourceDocument[] = [
         fieldName: 'Line 19 – Child tax credit',
         page: 1,
         // Row "5. Medicare wages" at ~39%
-        boundingBox: { x: 62, y: 38, width: 34, height: 2.8 },
+        boundingBox: { x: 65, y: 37, width: 32, height: 2.8 },
         extractedValue: 2000,
         confidence: 88,
         colorIndex: 1,
@@ -36,7 +36,7 @@ export const sourceDocuments: SourceDocument[] = [
         fieldName: 'Line 16 – Tax',
         page: 1,
         // Row "6. Medicare tax" at ~42%
-        boundingBox: { x: 62, y: 41, width: 34, height: 2.8 },
+        boundingBox: { x: 65, y: 40, width: 32, height: 2.8 },
         extractedValue: 12107,
         confidence: 55,
         colorIndex: 2,
